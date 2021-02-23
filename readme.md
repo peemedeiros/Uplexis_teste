@@ -2,7 +2,7 @@
 
 ## Configurando ambiente - Linux Ubuntu 18.04:
 
-### Instale o php7.3 e extensões que serão necessárias:
+### Instale apache2 e o php7.3 e extensões que serão necessárias:
 
 #sudo add-apt-repository ppa:ondrej/php
 
@@ -15,6 +15,7 @@
 #sudo apt-get install apache2 libapache2-mod-php7.3 php7.3 php7.3-xml php7.3-gd php7.3-opcache php7.3-mbstring php7.3-mysql
 
 ---
+#sudo systemctl start apache2.service
 
 ### Instale o MySQL
 
