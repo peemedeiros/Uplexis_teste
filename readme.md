@@ -78,4 +78,5 @@ composer
 5. Após concluida a instalação execute o comando "php artisan migrate" para criar as tabelas no banco de dados
 6. Realizadas as migrações, inicie o servidor com 'php artisan serve'
 7. Acesse o link do projeto.
-
+8. Registre um novo usuario.
+9. Use o email e senha para autenticar
